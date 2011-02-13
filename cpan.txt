@@ -1,50 +1,51 @@
 // $Id$ 
 // CPAN
-// perl�ǻȤ��������ʥġ���򥤥󥹥ȡ��뤹��
+// perlで使える便利なツールをインストールする
+// -*- coding:utf-8 -*-
 
 0 Features 
 
 http://www.cpan.org
 
-  �����ʥġ����ߤ�ʤǻȤ��ޤ��礦�衢�Ȥ�������
-  �䤬�ޤ��ԤäƤ��������⤷�Ƥ�����
+  便利なツールをみんなで使いましょうよ、という事。
+  私がまず行っておく事をメモしておく。
 
-  CPAN shell��ư����٤ˤϰʲ��Τ褦�˼¹Ԥ���Ф褤
+  CPAN shellを起動する為には以下のように実行すればよい
 
     # perl -MCPAN -e shell
 
 
 1 LWP
 
-web��Υǡ������������٤�ɬ�פʤ餷����
+web上のデータを取得する為に必要ならしい。
 
 
 2 readline
 
-CPAN shell��ư�����ݡ���Ϥ����˼¹Ԥ������ޥ�ɤ���������ǸƤӽФ���
-�������ʤΤǡ��ǽ�˥��󥹥ȡ��뤷�Ƥ����٤���������
+CPAN shellを起動した際、やはり前に実行したコマンドが矢印キーで呼び出せる
+と便利なので、最初にインストールしておくべきだろう。
 
   cpan> install Term::ReadLine::Gnu
 
 3 GD::Graph
 
-��ñ�ʥ���պ����򤹤���ʤɡ����˽�������Τǡ����󥤥󥹥ȡ��뤹�٤���
+簡単なグラフ作成をする時など、非常に重宝するので、是非インストールすべし。
 
 4 XML::Parser
 
-uim�򥤥󥹥ȡ��뤹��٤ˤ�ɬ�ס�expat�򥷥��ƥ�˥��󥹥ȡ��뤷�Ƥ���ɬ�פ�����餷����
-�� fink ���饤�󥹥ȡ��뤹�����������Τ��⡣
-�� �����expat�ϥ��������饤�󥹥ȡ��뤷�Ƥ�������
+uimをインストールする為にも必要。expatをシステムにインストールしておく必要があるらしい。
+※ fink からインストールする方がいいのかも。
+※ 一応、expatはソースからインストールしておいた。
 
 5 link 
 
-  LWP�δ���Ū�ʻȤ����ˤĤ���
+  LWPの基本的な使い方について
   http://digit.que.ne.jp/work/index.cgi?Perl%A5%E2%A5%B8%A5%E5%A1%BC%A5%EB%2fLWP
 
-  lwpcook�����ܸ�����ɬ�ܡ�
+  lwpcookの日本語訳。必須。
   http://homepage3.nifty.com/hippo2000/perltips/lwpcook.html
 
-  ���ä��ȹ������������褤�����饤�꡼����(2007ǯ�褦�䤯��������)��
+  さっさと購入した方がよい、オライリーの本(2007年ようやく購入した)。
   http://www.amazon.co.jp/exec/obidos/ASIN/4900900621/ref=ase_walrdigi-22/503-2986662-9609567
 
 
